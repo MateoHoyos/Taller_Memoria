@@ -23,11 +23,13 @@
             
         \vspace{0.5cm}
         \LARGE
-        Informática II
+        Proyecto de investigación\\
+        Informática II 
             
         \vspace{1.5cm}
             
-        \textbf{Mateo Hoyos Mesa}
+        \textbf{Mateo Hoyos Mesa}\\
+        \textbf{cc 1036784854}
             
         \vfill
             
@@ -43,30 +45,43 @@
     \end{center}
 \end{titlepage}
 
+\tableofcontents
+\newpage
+\section{Introducción}\label{intro}
+La memoria es unos de los elementos más importantes, ya que muchos dispositivos electrónicos la usan, como celulares, consolas de video, etc. Nos centraremos específicamente en la memoria del computador y uno de sus principales gestores es el procesador, hoy en día el uso del computador es indispensable para todo tipo de aplicaciones, ya sea para programar, jugar, simular, etc. Y entender para qué sirve la memoria es importante, no solo para entender cómo funciona un computador, sino también porque muchas veces nuestros computador no pueden ser eficientes o se ponen lentos.
 
-\section{Defina que es la memoria del computador.}
+\section{Contenido}\label{contenido}
+Para entender y tener más claro que es la memoria, y específicamente la del computador, responderemos estas preguntas de una manera sencilla, sin tener que entrar mucho en detalle del funcionamiento electrónico.\\\\
+1. Defina que es la memoria del computador.\\
+2. Mencione los tipos de memoria que conoce y haga una pequeña descripción de cada tipo.\\
+3. Describa la manera como se gestiona la memoria en un computador.\\
+4. ¿Qué hace que una memoria sea más rápida que otra? ¿Por qué esto es importante?\\
+\newpage
 
-Componentes del computador que almacena la información temporal y permite acceder a la información almacenada temporalmente, es uno del componente más importante del computador, microprocesador la utiliza todo el tiempo.\cite{Augusto}
+\subsection{Defina que es la memoria del computador.}
 
-\section{Mencione los tipos de memoria que conoce y haga una pequeña descripción de cada tipo.}
+Componentes del computador que almacena la información temporal y permite acceder a la información almacenada temporalmente, es uno del componente más importante del computador, el microprocesador la utiliza todo el tiempo.\cite{Augusto}
 
--RAM: Memoria de Acceso Aleatorio, es utilizada constantemente por el microprocesador, que accede a ella para buscar o guardar temporalmente información referente a los procesos que se realizan en la computadora. \cite{Venturini}
+\subsection{Mencione los tipos de memoria que conoce y haga una pequeña descripción de cada tipo.}
 
--ROM: memoria de solo lectura, se utiliza únicamente para lectura, contiene información del fabricante y autodiagnóstico del sistema. \cite{wiki}
+-RAM: Memoria de Acceso Aleatorio, es utilizada constantemente por el microprocesador, que accede a ella para buscar o guardar temporalmente información referente a los procesos que se realizan en la computadora. \cite{Venturini} \\
 
-
--CACHE: siendo más rápido que la RAM, se utiliza para trabajar con los datos e instrucciones que el microprocesador ve que se utilizan más seguidos, hay tres niveles L1, L2 y L3.
-
--Memoria Virtual: Es el tipo de memoria más lenta, es una porción del disco duro dedicada exclusivamente a "sostener"  temporalmente los pedazos de los programas y datos en ejecución que se utilizan menos o que ocupan espacio innecesario.\cite{Augusto}
-
-\section{Describa la manera como se gestiona la memoria en un computador.}
-
-Si generalizamos la memoria de un computador en 3 tipos que almacena información temporal serian RAM, cache y memoria virtual, La RAM seria la que todo el tiempo utiliza el microprocesador y la mayor parte de la información se carga en ella, pero cuando el microprocesador se da cuenta que un segmento de datos o información se utiliza de manera reiterada utiliza la memoria cache, la memoria virtual estará encargada de llevar información que se utiliza menos y que no ocuparán innecesariamente los espacios limitados de la memoria..\cite{Augusto}
-
-\section{¿Qué hace que una memoria sea más rápida que otra? ¿Por qué esto es importante?}
-La principal diferencia de velocidad entre cada memoria es el tipo de estructura que tiene, la RAM está compuesta por millones de transistores y capacitores,\cite{Augusto} la memoria cache tipo L1 y L2 está dentro del microprocesador y si es de tipo L3 está la placa madre, mientras que la memoria virtual es el disco duro, esto es importante para un mejor rendimiento del computador, primero porque es mejor depender menos de la memoria virtual, la memoria virtual suele producir ciertos problemas que ocasionan que la PC “se cuelgue” y si se usa mucho la memoria virtual sólo obtendremos como resultado que nuestra PC se vuelva más lenta \cite{Venturini} y lo mejor siempre es contar con la mayor cantidad posible de Memoria RAM (es expandir la cantidad de memoria RAM si es posible) y segundo para que necesitamos el computador, dependiendo del trabajo o uso que necesitemos, es fundamental saber de la memoria, un ejemplo simple es cuando nuestros computadores están muy lentos y vemos que no podemos expandir la memoria RAM pero es suficiente para lo que necesitamos y si supongamos que tenemos un microprocesador del igual forma suficiente para nuestras tareas, saber que el disco duro giran a gran velocidad podría ser la solución al problema, se podría reemplazar hasta por un disco duro sólido pero los costos siempre serán importantes, ya que un disco duro solido (SSD de solid-state drive) de la misma capacidad del anterior disco duro (se le conoce como hard disk drive, HDD) que teníamos podría ser muy costoso, como por ejemplo un disco duro solido de 500gbs podría costar el doble o el triple que un disco duro HDD.
+-ROM: Memoria de solo lectura, se utiliza únicamente para lectura, contiene información del fabricante y autodiagnóstico del sistema. \cite{wiki} \\
 
 
+-CACHE: Siendo más rápido que la RAM, se utiliza para trabajar con los datos e instrucciones que el microprocesador ve que se utilizan más seguidos, hay tres niveles L1, L2 y L3, la L1 es la más rápida y se encuentra dentro de los núcleos del microprocesador, L2 es un poco más lenta pero igualmente hoy día se encuentra incorporado también dentro del microprocesador y  la L3 es la más lenta de las tres pero la que mayor capacidad tiene, instalada en la placa madre del computador.\cite{Augusto} \\
+
+-Memoria Virtual: Es el tipo de memoria más lenta, es una porción del disco duro dedicada exclusivamente a "sostener"  temporalmente los pedazos de los programas y datos en ejecución que se utilizan menos o que ocupan espacio innecesario.\cite{Augusto} \\
+
+\subsection{Describa la manera como se gestiona la memoria en un computador.}
+Explicando de una forma simple, si generalizamos la memoria de un computador en tres tipos, que almacenen información temporal serian RAM, cache y memoria virtual, La RAM seria la que todo el tiempo utiliza el microprocesador y la mayor parte de la información se carga en ella, pero cuando el microprocesador se da cuenta que un segmento de datos o información se utiliza de manera reiterada utiliza la memoria cache, la memoria virtual estará encargada de llevar información que se utiliza menos y que no ocuparán innecesariamente los espacios limitados de la memoria. 
+\cite{Augusto}
+
+\subsection{¿Qué hace que una memoria sea más rápida que otra? ¿Por qué esto es importante?}
+La principal diferencia entre cada memoria es el tipo de estructura que tiene, lo cual hace que una sea más rápida que la otra, la RAM está compuesta por millones de transistores y capacitores,\cite{Augusto} la memoria cache tipo L1 y L2 está dentro del microprocesador y si es de tipo L3 está la placa madre, mientras que la memoria virtual es el disco duro, esto es importante para un mejor rendimiento del computador, primero porque es mejor depender menos de la memoria virtual, la memoria virtual suele producir ciertos problemas que ocasionan que la PC “se cuelgue” y si se usa mucho la memoria virtual sólo obtendremos como resultado que nuestra PC se vuelva más lenta \cite{Venturini} y lo mejor siempre es contar con la mayor cantidad posible de Memoria RAM (es expandir la cantidad de memoria RAM si es posible) y segundo para que necesitamos el computador, si por ejemplo es para jugar, editar videos, tener muchos programas abiertos, etc. Dependiendo del trabajo o uso que necesitemos, es fundamental saber de la memoria, un ejemplo simple es cuando nuestros computadores están muy lentos y vemos que no podemos expandir la memoria RAM pero es suficiente para lo que necesitamos y si supongamos que tenemos un microprocesador del igual forma suficiente para nuestras tareas, saber que el disco duro también es memoria para el computador y  que giran a gran velocidad, podría ser la solución al problema con un remplazo de disco duro, se podría reemplazar hasta por un disco duro sólido pero los costos siempre serán importantes, ya que un disco duro solido (SSD de solid-state drive) de la misma capacidad del anterior disco duro (se le conoce como hard disk drive, HDD) que teníamos podría ser muy costoso, como por ejemplo un disco duro solido de 500gbs podría costar el doble o el triple que un disco duro HDD.
+
+\section{Conclusión}\label{conclusion}
+La memoria es uno de los elementos clave del computador, tener mucha memoria RAM siempre será mejor, sin embargo el precio para expandir la memoria podría ser considerable, siempre los costos serán algo importante,  porque a veces no habría la necesidad de comprar otro computador, saber que el disco duro es también memoria para el computador (memoria virtual) no tendrías que gastar en un computador nuevo, simplemente en un nuevo disco duro tratándose de un computador que esta lento y aumentar la RAM, o hasta se podría cambiar el procesador (mientras se pueda). Ya sabiendo lo fundamental de la memoria, ya podemos entrar en el mundo de los sistemas embebidos (microcontroladores) porque la memoria tendrá un papel fundamental a la hora de programar el microcontrolador para alguna aplicación que necesitemos.    \\ 
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
